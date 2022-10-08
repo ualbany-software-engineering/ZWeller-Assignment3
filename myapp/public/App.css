@@ -1,4 +1,37 @@
 .topNav {
+  display: flex;
   background-color: rgb(179, 179, 179);
   height: 5vh;
+  align-items: center;
+}
+
+img {
+  max-width: 70%;
+  max-height: 70%;
+  background-color:rgb(179, 179, 179);
+}
+
+header {
+  text-align: left;
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.nameDiv {
+  font-size: xx-large;
+}
+
+.imageDiv {
+  border: 10vh;
+}
+
+p {
+  font-size: small;
 }
